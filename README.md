@@ -9,6 +9,7 @@ Durante a aula do Masterclass de React fornecido pela Rocketseat, apendi e desen
  - Roteamento com React-Router
  - Reaproveitamento de layouts
  - Responsividade
+ - Vite (já conhecia um pouco, mas foi legal aprofundar mais sobre)
  
 Tambem foi estudado TypeScript no React (material que gostei muito e pretendo me aprofundar mais)
 
