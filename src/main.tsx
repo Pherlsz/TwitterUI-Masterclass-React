@@ -1,8 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { RouterProvider } from 'react-router-dom';
+
+import { Sidebar } from './components/Sidebar/Sidebar';
+
+import './global.css';
+import { router } from './routes';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-    <h1>teste</h1>
-  </React.StrictMode>,
-)
+	<React.StrictMode>
+		<RouterProvider router={router} />
+	</React.StrictMode>
+);
